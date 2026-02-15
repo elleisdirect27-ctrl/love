@@ -1,0 +1,48 @@
+body {
+	text-align: center;
+	font-family: Arial, sans-serif;
+	background-color: #ffe6f0;
+}
+
+h1 {
+	margin-top: 40px;
+	color: #d63384;
+}
+
+img {
+	width: 200px;
+	margin: 10px;
+	border-radius: 15px;
+}
+
+.buttons {
+	margin-top: 30px;
+	position: relative;
+	height: 200px;
+}
+
+button {
+	padding: 15px 30px;
+	font-size: 18px;
+	border: none;
+	border-radius: 25px;
+	cursor: pointer;
+	transition: 0.3s ease;
+	position: absolute;
+}
+
+#yesBtn {
+	background-color: #ff4da6;
+	color: white;
+	left: 40%;
+}
+
+#yesBtn:hover {
+	transform: scale(1.2);
+}
+
+#noBtn {
+	background-color: #999;
+	color: white;
+	left: 55%;
+}
